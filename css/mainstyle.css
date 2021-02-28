@@ -1,7 +1,7 @@
 /* Body */
 
 html, body{
-	background-image: url("../img/background.jpg");
+	background-image: url("../img/background.webp");
 	height: 100%;
   background-position: center;
 	background-size: cover;
