@@ -328,11 +328,21 @@ footer{
 footer a{
   color: #212A2A;
   text-decoration: none;
+  opacity: .7;
+  -webkit-transition: .35s;
+  transition: .35s;
+}
+
+footer a:hover{
+  opacity: 1;
+  -webkit-transition: .8s;
+  transition: .8s;
 }
 
 footer img{
   height: 35px;
-  margin-left: 5px;
+  margin-left: 15px;
+  margin-right: 15px;
 	margin-bottom: 5px;
 	padding-bottom: 5px;
 }
