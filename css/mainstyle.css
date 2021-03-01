@@ -62,8 +62,6 @@ nav {
 
 }
 
-
-@import url(http://fonts.googleapis.com/css?family=Open+Sans);
 body {
   background: rgba(0,0,0,0.0);
 }
@@ -98,7 +96,7 @@ body {
   position: absolute;
   background: #fff;
   height: 2px;
-  width: 0%;
+  width: 0;
   -webkit-transform: translateX(-50%);
       -ms-transform: translateX(-50%);
           transform: translateX(-50%);
@@ -159,7 +157,7 @@ h1 {
   height: 5px;
   width: 100%;
   position: absolute;
-  top: 0px;
+  top: 0;
   left: 0;
   -webkit-transition: all .35s ease;
           transition: all .35s ease;
@@ -260,7 +258,6 @@ h1 {
 }
 .overlay ul li {
   display: block;
-  height: 25%;
   height: calc(100% / 4);
   min-height: 50px;
   position: relative;
@@ -281,7 +278,7 @@ h1 {
   position: absolute;
   bottom: 0;
   left: 50%;
-  width: 0%;
+  width: 0;
   -webkit-transform: translateX(-50%);
       -ms-transform: translateX(-50%);
           transform: translateX(-50%);
