@@ -313,10 +313,9 @@ h1 {
 /* Footer */
 footer{
   position: fixed;
-  top: 88%;
+  top: 80%;
   width: 100%;
-  height: 40px;
-  margin-bottom: 50px;
+  height: 45px;
   font-family: 'Roboto', sans-serif;
   color: #212A2A;
   text-decoration: none;
@@ -343,8 +342,10 @@ footer img{
   height: 35px;
   margin-left: 15px;
   margin-right: 15px;
-	margin-bottom: 5px;
-	padding-bottom: 5px;
+}
+
+footer h3{
+  padding-bottom: 5px;
 }
 
 /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
